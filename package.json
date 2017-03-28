@@ -13,7 +13,7 @@
 	],
 	"actions": {
 		"insertAfter": {
-			"searchValue": "Custom Blocks *************************************/",
+			"searchValue": "* Custom Blocks *************************************/",
 			"files": [
 				"template-homepage.php"
 			]
