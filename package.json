@@ -1,0 +1,27 @@
+{
+	"name": "ACF Homepage teaser blokken actueel",
+	"type": "snippet",
+	"version": "0.1.0",
+	"description": "Repeater field of Nieuws/Agenda CPT items for the Homepage",
+	"dependencies": {
+		"module": "acf-manager",
+		"module": "cpt-agenda",
+		"module": "cpt-nieuws",
+	},
+	"files": [
+		"acf-homepage-teaser-blokken-actueel.php"
+	],
+	"actions": {
+		"insertAfter": {
+			"searchValue": "Custom Blocks *************************************/",
+			"files": [
+				"template-homepage.php"
+			]
+		},
+		"addAdvancedCustomFields": {
+			"files": [
+				"group_589a187c92454.json"
+		    ]
+		}
+	}
+}
