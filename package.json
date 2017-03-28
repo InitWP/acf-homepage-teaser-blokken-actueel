@@ -4,9 +4,9 @@
 	"version": "0.1.0",
 	"description": "Repeater field of Nieuws/Agenda CPT items for the Homepage",
 	"dependencies": {
-		"module": "acf-manager",
-		"module": "cpt-agenda",
-		"module": "cpt-nieuws",
+		"acf-manager": "module",
+		"cpt-agenda": "module",
+		"cpt-nieuws": "module"
 	},
 	"files": [
 		"acf-homepage-teaser-blokken-actueel.php"
